@@ -1,0 +1,83 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Or any beautiful gradient */
+  }
+  
+  .form-wrapper {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+  }
+  .banner-container {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-top: 20px;
+    margin-right: 50px;
+    
+  }
+  
+  .banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form input {
+    width: calc(100% - 20px); /* Adjust width to fit padding */
+    padding: 12px 10px;
+    margin: 10px 0; /* Increase margin */
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .login-form button {
+    padding: 12px 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 480px) {
+    .form-wrapper {
+      width: 80%;
+      padding: 20px;
+    }
+  }
+  

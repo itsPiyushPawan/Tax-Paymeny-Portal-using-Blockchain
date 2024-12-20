@@ -1,0 +1,18 @@
+.banner-container {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-top: 20px;
+    margin-left: 50px;
+    
+  }
+  
+  .banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
